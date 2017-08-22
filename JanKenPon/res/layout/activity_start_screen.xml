@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartScreen" 
+    android:background="@drawable/abc">
+
+    <Button
+        android:id="@+id/playb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/scoreb"
+        android:layout_marginTop="58dp"
+        android:background="#000"
+        android:textColor="#fff"
+        android:text="PLAY" />
+
+    <Button
+        android:id="@+id/scoreb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/playb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="#000"
+        android:textColor="#fff"
+        android:text="SCORE" />
+
+    <Button
+        android:id="@+id/quitb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/playb"
+        android:layout_below="@+id/scoreb"
+        android:layout_marginTop="58dp"
+        android:background="#000"
+        android:textColor="#fff"
+        android:text="QUIT" />
+
+    <TextView
+        android:id="@+id/maintitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="RockPaperScissors"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
